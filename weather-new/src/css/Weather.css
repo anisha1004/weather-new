@@ -1,0 +1,73 @@
+.weather {
+	background: linear-gradient(250.76deg, #a371d6 0%, #ff9696 97.65%);
+	height: 100vh;
+	width: 100vw;
+	font-family: "Reem Kufi";
+	color: white;
+}
+
+.weather-left {
+	width: 75%;
+	height: 100%;
+}
+
+.top {
+	font-size: 25px;
+	display: flex;
+	justify-content: space-between;
+	padding: 3vh;
+}
+.middle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.search i {
+	align-items: center;
+	position: absolute;
+	justify-content: center;
+}
+
+.searchbar {
+	background: linear-gradient(
+		116.79deg,
+		#7591c8 -41.94%,
+		rgba(15, 47, 129, 0.33) 57.51%
+	);
+	backdrop-filter: blur(100px);
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 250px;
+	color: white;
+	font-size: 20px;
+	font-family: "Nunito";
+}
+
+.temp {
+	font-size: 65px;
+	font-weight: 100;
+	font-family: "Inter";
+	filter: drop-shadow(-4.51px 2.26px 0.75px rgba(0, 0, 0, 0.15));
+}
+
+.date {
+	font-family: "Inter";
+	font-weight: 600;
+	font-size: 24px;
+	text-shadow: -1.51px 2.26px 0.75px rgba(0, 0, 0, 0.1);
+	padding-bottom: 15px;
+}
+
+.day-time {
+	font-family: "Inter";
+	font-weight: 200;
+	font-size: 18px;
+}
+
+.icon {
+	height: 65px;
+}
