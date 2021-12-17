@@ -2,6 +2,7 @@ import React from "react";
 import "../css/Weather.css";
 import SearchIcon from "../images/searchIcon.svg";
 import Icon from "../images/mid-icon.svg";
+import Card from "../component/Card";
 
 const Weather = () => {
 	return (
@@ -30,9 +31,18 @@ const Weather = () => {
 					</div>
 				</div>
 				<div className='strip'></div>
-				<div className='forecast'></div>
+				<div className='forecast'>
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</div>
 			</div>
-			<div className='weather-right'></div>
+			<div className='weather-right'>
+				<div className='card-right'></div>
+			</div>
 		</div>
 	);
 };
