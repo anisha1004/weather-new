@@ -3,6 +3,7 @@ import "../css/Weather.css";
 import SearchIcon from "../images/searchIcon.svg";
 import Icon from "../images/mid-icon.svg";
 import Card from "../component/Card";
+import Map from "../images/map.svg";
 
 const Weather = () => {
 	return (
@@ -41,7 +42,22 @@ const Weather = () => {
 				</div>
 			</div>
 			<div className='weather-right'>
-				<div className='card-right'></div>
+				<div className='card-right'>
+					<div className='right-up'>
+						<img src={Map} />
+						<span>Delhi, India</span>
+					</div>
+					<div className='right-box'>
+						<div className='right-row'>
+							<Card />
+							<Card />
+						</div>
+						<div className='right-row'>
+							<Card />
+							<Card />
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
